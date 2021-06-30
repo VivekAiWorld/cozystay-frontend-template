@@ -1,34 +1,76 @@
+.near-me{
+    color : #eebf1e;
+    font-size: 1rem;
+}
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.search-icon{
+    font-weight: 400 !important;
+    color: #c6c6c6 !important;
+    font-size:26px;
+}
+
+.search button {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    height: 46px;
+    width: 105px;
+    background: #eebf1e;
+    border-color: #eebf1e !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.search button:hover,.search button:focus,.search button:active{
+    background-color : #bb940e !important;
+    
+}
+
+
+.search .fa-search {
+    position: absolute;
+    top: 13px;
+    left: 16px;
+}
+
+.search input {
+    height: 50px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+    border-radius: .50rem !important;
+    box-shadow: none !important;
+
+}
+.search input:focus{
+    border-color : rgb(94, 99, 102) !important;
+
+}
+
+
 #navbar-brand-nav{
     margin-right: 6.5rem !important;
 }
 
 .main-section-head{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700 !important;
-    font-size: 65px;
+    font-weight: 600 !important;
+    font-size: 56px;
 }
 .main-search{
     font-weight: 400 !important;
     font-size: 30px !important;
 }
 
-.search-icon-left{
-    border-right:0 !important;
-    border-color: #ced4da !important;
-}
 
-.search-icon-left:focus,.search-icon-left:active,.search-icon-left:hover {
-    color:#6c757d !important ;
-    background-color:white !important ;
-}
 
-.search-input-main{
-    border-left: 0 !important ;
-    padding: .8rem 1rem !important;
-}
+
 
 .main-p{
-    font-size: 20px;
+    font-size: 17px;
     color:#5e6366 !important;
 }
 
@@ -42,6 +84,7 @@
 
 .nav-link{
     color:black !important;
+    font-size: 15px !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -50,12 +93,8 @@
     }
   }
 
-.container{
-    max-width: 1528px;
-}
-
 body{
     font-family: 'Lato', sans-serif;
-    font-weight: 600;
     font-size: 1.2rem !important;
 }
+
