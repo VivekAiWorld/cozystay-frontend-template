@@ -1,0 +1,55 @@
+#navbar-brand-nav{
+    margin-right: 6.5rem !important;
+}
+
+.main-section-head{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700 !important;
+    font-size: 65px;
+}
+.main-search{
+    font-weight: 400 !important;
+    font-size: 30px !important;
+}
+
+.search-icon-left{
+    border-right:0 !important;
+    border-color: #ced4da !important;
+}
+.search-input-main{
+    border-left: 0 !important ;
+    padding: .8rem 1rem !important;
+}
+
+.main-p{
+    font-size: 20px;
+    color:#5e6366 !important;
+}
+
+.text-yellow{
+    color:#eebf1e !important;
+}
+
+.nav-item{
+    margin-right: 40px !important;
+}
+
+.nav-link{
+    color:black !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-item{
+        margin-right: 0 !important;
+    }
+  }
+
+.container{
+    max-width: 1528px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem !important;
+}
