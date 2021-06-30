@@ -16,6 +16,12 @@
     border-right:0 !important;
     border-color: #ced4da !important;
 }
+
+.search-icon-left:focus,.search-icon-left:active,.search-icon-left:hover {
+    color:#6c757d !important ;
+    background-color:white !important ;
+}
+
 .search-input-main{
     border-left: 0 !important ;
     padding: .8rem 1rem !important;
