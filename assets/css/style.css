@@ -1,3 +1,37 @@
+
+
+
+
+
+
+
+.swiper-container-blog {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+  }
+  .swiper-slide-blog {
+    background-position: center;
+    background-size: cover;
+    width: auto !important;
+    height: 200px;
+    margin-right: 2rem !important;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 2rem !important;
+  }
+
+
 #mother-h1{
     font-size:  65px !important;
     color: #27debf !important;
@@ -119,6 +153,9 @@
     .nav-item{
         margin-right: 0 !important;
     }
+    #insta-link{
+        margin: 0px 0px 0px 0px !important;
+    }
   }
 
 body{
@@ -126,3 +163,29 @@ body{
     font-size: 1.2rem !important;
 }
 
+
+
+/* bootstrap  */
+.btn-primary {
+    color: #fff;
+    background-color: #eebf1e;
+    border-color: #eebf1e;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #c6a42e;
+    border-color: #c6a42e;
+  }
+  .btn-check:focus + .btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #c6a42e;
+    border-color: #c6a42e;
+    box-shadow: 0 0 0 0.25rem rgb(198, 164, 46, 0.5);
+  }
+  .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #c6a42e;
+    border-color: #c6a42e;
+  }
+  .bt
+/* bootstrap  */

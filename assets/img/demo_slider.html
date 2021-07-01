@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        .home {
+            background: url(http://www.pngmagic.com/product_images/sky-blue-hd-background-image-for-banner.jpg) no-repeat;
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            text-align: center;
+
+        }
+
+        .home .swiper-container {
+            width: 100%;
+            padding-top: 5rem;
+            padding-bottom: 2rem;
+        }
+
+        .home .swiper-slide {
+            width: 25rem;
+            height: 30rem;
+        }
+
+        .home .swiper-slide img {
+            display: block;
+            width: 80%;
+            height: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="home" id="home">
+        <div class="swiper-container image-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img
+                        src="https://www.clickcrawl.net/wp-content/uploads/2016/01/mobile-app-banner.jpg" alt=""></div>
+                <div class="swiper-slide"><img
+                        src="https://www.clickcrawl.net/wp-content/uploads/2016/01/mobile-app-banner.jpg" alt=""></div>
+                <div class="swiper-slide"><img
+                        src="https://www.clickcrawl.net/wp-content/uploads/2016/01/mobile-app-banner.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/shot-04.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/shot-05.jpg" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <script>
+
+        var swiper = new Swiper(".image-slider", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 2,
+                slideShadows: true,
+            },
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+        });
+
+        let menu = document.querySelector('#menu-bar');
+        let navbar = document.querySelector('.navbar');
+
+        menu.addEventListener('click', () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('nav-toggle');
+        });
+
+        window.onscroll = () => {
+            menu.classList.remove('fa-times');
+            navbar.classList.remove('nav-toggle');
+        }
+
+    </script>
+</body>
+
+</html>
