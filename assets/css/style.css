@@ -1,3 +1,31 @@
+#mother-h1{
+    font-size:  65px !important;
+    color: #27debf !important;
+}
+
+/* transition card city */
+.zoom-card-city {
+    transition: transform .2s; 
+  }
+  
+  .zoom-card-city:hover {
+    transform: scale(1.5); 
+  }
+/* transition card city end */
+
+.main-line{
+    color: #eec433 ;
+    height: 3px !important;
+    opacity: 100;
+}
+
+.main-social{
+    background-color: #eebf1e;
+    width:30px;
+    height:30px; 
+    border-radius:50%;
+}
+
 .near-me{
     color : #eebf1e;
     font-size: 1rem;
@@ -57,8 +85,8 @@
 
 .main-section-head{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600 !important;
-    font-size: 56px;
+    font-weight: 900 !important;
+    font-size: 52px;
 }
 .main-search{
     font-weight: 400 !important;
