@@ -1,7 +1,39 @@
+.dwelling-p{
+    font-size : 13px;
+}
+
+.main-girl{
+    position: absolute;
+    width: 35%;
+    bottom: 5%;
+    left: 13%;
+}
+
+.main-girl-bg{
+    position: absolute;
+    top: 9%;
+    width: 36%;
+    left: 7%;
+    transform: rotate(105deg);
+}
 
 
+.main-small-element{
+    width: 7%;
+    margin-top : 2%;
+    margin-right : 17%;
+    margin-bottom : 8%;
 
+}
 
+#main-section{
+    background-image: url('../img/bg/main-rectangle-city-back-svg.svg');
+    background-position: top center;
+    background-position: 0px -30px;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 
 
