@@ -165,7 +165,7 @@
                 <div class="col-sm-5">
                     <div class="row">
                         <div class="col-sm-4  text-center py-4">
-                            <div style="background-image: url(./assets/img/bg/yellow-rect.svg);
+                            <div style="background-image: url(./assets/img/bg/yellow-rect.png);
                             background-size: 100%;
                             background-position: center center;
                             background-repeat: no-repeat;
@@ -176,7 +176,7 @@
                             <p class="dwelling-p">No <br> Lock-in</p>
                         </div>
                         <div class="col-sm-4  text-center py-4">
-                            <div style="background-image: url(./assets/img/bg/green.svg);
+                            <div style="background-image: url(./assets/img/bg/green.png);
                             background-size: 100%;
                             background-position: center center;
                             background-repeat: no-repeat;
@@ -188,7 +188,7 @@
                             
                         </div>
                         <div class="col-sm-4  text-center py-4">
-                            <div style="background-image: url(./assets/img/bg/yellow-rect.svg);
+                            <div style="background-image: url(./assets/img/bg/yellow-rect.png);
                             background-size: 100%;
                             background-position: center center;
                             background-repeat: no-repeat;
@@ -204,7 +204,7 @@
                         <div class="col-sm-2 "></div>
                         <div class="col-sm-4  text-center  px-4">
                             <!-- <object type="image/svg+xml" data="./assets/img/bg/green.svg" style=" width: 100%;"></object> -->
-                            <div style="background-image: url(./assets/img/bg/green.svg);
+                            <div style="background-image: url(./assets/img/bg/green.png);
                             background-size: 100%;
                             background-position: center center;
                             background-repeat: no-repeat;
@@ -216,7 +216,7 @@
 
                         </div>
                         <div class="col-sm-4 text-center px-4" >
-                            <div style="background-image: url('./assets/img/bg/yellow-rect.svg');
+                            <div style="background-image: url('./assets/img/bg/yellow-rect.png');
                             background-size: 100%;
                             background-position: center center;
                             background-repeat: no-repeat;
@@ -251,9 +251,16 @@
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <script>
+        $(function(){
+            console.log('width - ', $(window).width())
+        });
+    </script>
+
 
     <!-- Initialize Swiper -->
-
+    
     <script>
         var swiper = new Swiper(".blog-slider", {
             slidesPerView: 3,
