@@ -1,36 +1,98 @@
 <!DOCTYPE html>
 
 <html>
+    <head>
+        <meta charset="utf-8">
+        <title>cozystay</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mdb.min.css">
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:ital,wght@0,100;0,600;0,900;1,900&display=swap"
+            rel="stylesheet">
+        <!-- bootstrap -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="./assets/css/bootstrap/css/bootstrap.css">
+    
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    
+        <!-- swiper     -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <!-- css -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+    
+        <style>
+            .media123{
+                position:relative;top: -252px;
+            }
+            .media1234{
+                margin-top:-2rem !important;
+            }
+            .med12{
+                padding-left: 10%;
+            }
+            .med123{
+                padding-left: 15%;
+            }
+    
+    @media only screen and (max-width: 600px) {
+        .media123{
+            
+            position:relative;top: -99px;
+            }
+            .media1234{
+                margin-top:-0rem !important;
+            }
+            .med12{
+                padding-left: 0%;
+            }
+            .med123{
+                padding-left: 0%;
+            }
+            #main-section{
+                background-size: 125%;
+            }
+    }
+           
+        </style>
+           
+    </head>
 
-<head>
+<!-- <head>
     <meta charset="utf-8">
     <title>cozystay</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:ital,wght@0,100;0,600;0,900;1,900&display=swap"
-        rel="stylesheet">
+        rel="stylesheet">  -->
     <!-- bootstrap -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="./assets/css/bootstrap/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="./assets/css/bootstrap/css/bootstrap.css">
 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> -->
 
     <!-- swiper     -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
     <!-- css -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+<!-- </head>  -->
 
 <body>
-    <section id="home">
+    <section id="main-section">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-expand-md navbar-light">
                 <a class="navbar-brand" id="navbar-brand-nav" href="#">
@@ -85,10 +147,48 @@
                 </div>
             </nav>
             <div class="row">
-                <div class="col-sm-12"></div>
-                <div class="col-sm-6 main-x-girl-bg"></div>
-                <div class="col-sm-6 text-end">
-                    <h1 class="main-section-head mb-0">A Place Like <span class="text-yellow">Home</span></h1>
+                <div class="col-sm-12 text-end">
+                    <img src="./assets/img/bg/main-small-x.svg" class=" main-small-element animated tada" />
+                </div>
+              
+
+                <div class="col-sm-6 col-12" >
+                    <div   class="wrapper media123 mt-5" 
+                >
+                        <img class="big-img " style=" transform: rotate(105deg);  width: 80%;
+                        max-width: 100%;
+                        
+                      " src="./assets/img/bg/main-small-x.svg" />
+                        <img style="
+                        position:absolute;
+                        right: -21px;
+    top: 13%;
+    width: 94%;;
+                       " class="small-img animated heartBeat " src="./assets/img/bg/bg-main01.png" />
+                      </div>
+                </div>
+             
+
+                <!-- <div class="col-sm-6 col-12">
+                   
+                         <img src="./assets/img/bg/main-small-x.svg" class=" img-responsive" 
+        style="max-width:35%;position: absolute;top: 15%;
+        width: 36%;
+        left: 7%;
+       
+        transform: rotate(105deg); "/>
+    <img src="./assets/img/bg/bg-main01.png" style="position: absolute;  width: 35%;
+    bottom: 5%;
+    left: 13%;" class=" img-responsive" /> -->
+                        <!-- <img src="./assets/img/bg/main-small-x.svg" class="main-girl-bg" />
+                        <img src="./assets/img/bg/bg-main01.png" class="main-girl" /> -->
+                  
+
+                <!-- </div> -->
+
+              
+                <div class="col-sm-6 col-12 text-end">
+                    <h1 class="main-section-head mb-0 animated fadeInDown ">A Place Like <span class="text-yellow">Home</span></h1>
 
                     <div class="row">
                         <div class="col-sm-1"></div>
@@ -98,20 +198,21 @@
                                 With cozy stay, we aim to offer you a hassle-free, cost-effective, and peaceful living
                                 experience catering to individual needs.
                             </p>
-                            <div class="search">
+                            <div style="box-shadow: none!important;" class="search">
                                 <i class="fa fa-search fa-md search-icon"></i>
-                                <input type="text" class="form-control ps-4 pb-2" placeholder="Find your near home...">
-                                <button class="btn btn-primary">Search</button>
+                                <input type="text" class=" form-control ps-4 pb-2" placeholder="Find your near home...">
+                                <button class="btn btn-primary">
+                                    Search</button>
                             </div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 py-3">
                             <span class="near-me"><i class="fas fa-location"></i> Near me</span>
                         </div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-9 pe-0">
                             <div>
-                                <hr class="main-line" />
+                                <hr class="main-line" style="width:32rem;position:absolute;right: 219px;" />
                             </div>
                         </div>
                         <div class="col-3 ps-0 d-flex justify-content-end">
@@ -129,7 +230,11 @@
                     </div>
                 </div>
             </div>
-            
+        </div>
+    </section>
+
+    <section  class="media1234">
+        <div class="container">
             <div class="row">
                 <div class="col-sm-7">
                     <h1 class="main-section-head">The Perfect</h1>
@@ -150,110 +255,302 @@
                     </p>
                 </div>
                 <div class="col-sm-5">
+                    <div class="row">
 
+                        <div class="col-sm-4 col-6" style="align-items: center;justify-content: center;"   >
+                            <center>
+                            <div class="card animated bounce infinite" style=" display: table;width: 10rem;border-radius: 10%;border-color: #edc539;border-width: .1vh;">
+                               
+                               
+                                  
+                                 
+                                     <img style=" position: absolute;
+
+                                       
+                                        right: -1px;float: right;" src="assets/img/bg/mask_group_26.svg" class="ribbon"/>
+                                       
+                                 
+                          
+                              
+                                 
+                               
+                                  <center>
+                                    <object  type="image/svg+xml" data="./assets/img/bg/padlock.svg" style=" width: 46%;text-align: center;padding-top: 17px;position: relative;"></object>
+                                  </center>
+                                  
+                               
+                                 
+                           
+                                </div>
+                                <center>
+                              
+                                   <p style="text-align: center;justify-content: center;font-size: 72%;">No
+                                Lock-in
+                            </p>
+                              </div>
+
+
+
+
+                              <div class="col-sm-4 col-6 med12"  style="align-items: center;justify-content: center;"  >
+                              <center>
+                              
+                                <div class="card" style="width: 10rem;border-radius: 10%;border-color: #27debf;border-width: .1vh;">
+                                   
+                                   
+                                      
+                                     
+                                         <img style=" position: absolute;
+    
+                                           
+                                            right: -1px;float: right;top: -53%;" src="assets/img/bg/mask_group_27.svg" class="ribbon"/>
+                                           
+                                     
+                              
+                                  
+                                     
+                                   
+                                      <center>
+                                        <object  type="image/svg+xml" data="./assets/img/bg/money.svg" style=" width: 60%;text-align: center;padding-top: 17px;position: relative;"></object>
+                                      </center>
+                                      
+                                   
+                                     
+                               
+                                    </div>
+                                </center> 
+                                  
+                                       <p style="text-align: center;justify-content: center;font-size: 72%;">No
+                                        Brokerage Fee
+                                        
+                                        
+                                </p>
+                                  </div>
+                                  <div class="col-sm-4 med123"  style="align-items: center;justify-content: center;" >
+                                  <center>
+                                    <div class="card animated bounce infinite" style="width: 10rem;border-radius: 10%;border-color: #edc539;border-width: .1vh;">
+                                       
+                                       
+                                          
+                                         
+                                             <img style=" position: absolute;
+        
+                                               
+                                                right: -1px;float: right" src="assets/img/bg/mask_group_26.svg" class="ribbon"/>
+                                               
+                                         
+                                  
+                                      
+                                         
+                                       
+                                          <center>
+                                            <object  type="image/svg+xml" data="./assets/img/bg/move.svg" style=" width: 60%;text-align: center;padding-top: 17px;position: relative;"></object>
+                                          </center>
+                                          
+                                       
+                                         
+                                   
+                                        </div>
+                                    </center>
+                                       
+                                      
+                                           <p style="text-align: center;justify-content: center;font-size: 72%;">
+                                            <nobr>Hassle-free Move-in</nobr>
+                                            
+                                            
+                                    </p>
+                                      </div>
+                     
+                     
+                    </div>
+                    <div class="row mt-3" style="height:50%">
+                        <div class="col-sm-2 "></div>
+                        <div class="col-sm-4 col-6 med12"  style="align-items: center;justify-content: center;"  >
+                            <center>
+                            
+                              <div class="card" style="width: 10rem;border-radius: 10%;border-color: #27debf;border-width: .1vh;">
+                                 
+                                 
+                                    
+                                   
+                                       <img style=" position: absolute;
+  
+                                         
+                                          right: -1px;float: right;top: -53%;" src="assets/img/bg/mask_group_27.svg" class="ribbon"/>
+                                         
+                                   
+                            
+                                
+                                   
+                                 
+                                    <center>
+                                      <object  type="image/svg+xml" data="./assets/img/bg/buildings.svg" style=" width: 60%;text-align: center;padding-top: 17px;position: relative;"></object>
+                                    </center>
+                                    
+                                 
+                                   
+                             
+                                  </div>
+                              </center> 
+                                
+                                     <p style="text-align: center;justify-content: center;font-size: 72%;">
+                                        Easy City Transfer
+                                      
+                                      
+                              </p>
+                                </div>
+
+                                <div class="col-sm-4 col-6 med123"  style="align-items: center;justify-content: center;" >
+                                    <center>
+                                      <div class="card" style="width: 10rem;border-radius: 10%;border-color: #edc539;border-width: .1vh;">
+                                         
+                                         
+                                            
+                                           
+                                               <img style=" position: absolute;
+          
+                                                 
+                                                  right: -1px;float: right" src="assets/img/bg/mask_group_26.svg" class="ribbon"/>
+                                                 
+                                           
+                                    
+                                        
+                                           
+                                         
+                                            <center>
+                                              <object  type="image/svg+xml" data="./assets/img/bg/group_55.svg" style=" width: 60%;text-align: center;padding-top: 17px;position: relative;"></object>
+                                            </center>
+                                            
+                                         
+                                           
+                                     
+                                          </div>
+                                      </center>
+                                         
+                                        
+                                             <p style="text-align: center;justify-content: center;font-size: 72%;">
+                                              <nobr>1 Month Security <br>Deposit</nobr>
+                                              
+                                              
+                                      </p>
+                                        </div>
+               
+                       
+                        <div class="col-sm-2"></div>
+                    </div>
                 </div>
             </div>
+        </div>
 
+    </section>
+
+    <section id="city-section">
+        <div class="container">
             <div class="row my-5">
-                <div class="col-sm-6"></div>
-
-                <div class="col-sm-6">
+                <div class="col-sm-5 py-5 pe-0 d-flex justify-content-end"
+                    style="background-image: url('./assets/img/bg/redbg.svg');background-size:cover;background-repeat:no-repeat;background-position: top left 101%;">
+                    <img class="pocket-rocket" src="./assets/img/bg/paper-rocket.svg" style="width: 45%;padding-right: 9%;" />
+                </div>
+                <div class="col-sm-7  py-5">
                     <div class="row">
-                        <div class="col-sm-12 text-end">
-                            <a class="btn btn-primary rounded-circle mb-3 mr-1" href="#carouselExampleIndicators2"
-                                role="button" data-slide="prev">
-                                <i class="fa fa-arrow-left"></i>
-                            </a>
-                            <a class="btn btn-primary  rounded-circle mb-3 " href="#carouselExampleIndicators2"
-                                role="button" data-slide="next">
-                                <i class="fa fa-arrow-right"></i>
-                            </a>
-                        </div>
                         <div class="col-sm-12">
-                            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-
+                            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+                                data-bs-interval="false">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <div class="row">
-                                            <div class="col-sm-4  py-5">
-                                                <div class="card border-0 zoom-card-city" style="width: 10rem;">
-                                                    <div class="card-body text-center border-0">
-                                                        <div class=" d-flex align-items-center justify-content-center">
-                                                            <i class="fas fa-city fa-lg"
-                                                                style="font-size: 5rem !important;"></i>
-                                                        </div>
-                                                        <p class="main-p mt-4 mb-0">Chennai</p>
-                                                    </div>
-                                                </div>
+                                        <div class="row mx-5">
+                                            <div class="col-sm-4 text-center">
+                                                <a href="" style="text-decoration: none;">
+                                                    <a href="" style="text-decoration: none;">
+                                                        <img src="./assets/img/bg/vidhana_soudha.svg" width="50%">
+                                                        <p class="main-p mt-2">city 1</p>
+                                                    </a>
+                                                </a>
                                             </div>
-                                            <div class="col-sm-4  py-5">
-                                                <div class="card border-0 zoom-card-city" style="width: 10rem;">
-                                                    <div class="card-body text-center border-0">
-                                                        <div class=" d-flex align-items-center justify-content-center">
-                                                            <i class="fas fa-city fa-lg"
-                                                                style="font-size: 5rem !important;"></i>
-                                                        </div>
-                                                        <p class="main-p mt-4 mb-0">Coimbatore</p>
-                                                    </div>
-                                                </div>
+                                            <div class="col-sm-4  text-center">
+                                                <a href="" style="text-decoration: none;">
+                                                    <img src="./assets/img/bg/vidhana_soudha.svg" width="50%">
+                                                    <p class="main-p mt-2">city 1</p>
+                                                </a>
+
                                             </div>
-                                            <div class="col-sm-4  py-5">
-                                                <div class="card border-0 zoom-card-city" style="width: 10rem;">
-                                                    <div class="card-body text-center border-0">
-                                                        <div class=" d-flex align-items-center justify-content-center">
-                                                            <i class="fas fa-city fa-lg"
-                                                                style="font-size: 5rem !important;"></i>
-                                                        </div>
-                                                        <p class="main-p mt-4 mb-0">Delhi</p>
-                                                    </div>
-                                                </div>
+                                            <div class="col-sm-4  text-center">
+                                                <a href="" style="text-decoration: none;">
+                                                    <img src="./assets/img/bg/vidhana_soudha.svg" width="50%">
+                                                    <p class="main-p mt-2">city 1</p>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-sm-4  py-5">
-                                                <div class="card border-0 zoom-card-city" style="width: 10rem;">
-                                                    <div class="card-body text-center border-0">
-                                                        <div class=" d-flex align-items-center justify-content-center">
-                                                            <i class="fas fa-city fa-lg"
-                                                                style="font-size: 5rem !important;"></i>
-                                                        </div>
-                                                        <p class="main-p mt-4 mb-0">Gurugram</p>
-                                                    </div>
-                                                </div>
+                                        <div class="row mx-5">
+                                            <div class="col-sm-4 text-center">
+                                                <a href="" style="text-decoration: none;">
+                                                    <img src="./assets/img/bg/vidhana_soudha.svg" width="50%">
+                                                    <p class="main-p mt-2">city 1</p>
+                                                </a>
                                             </div>
-                                            <div class="col-sm-4  py-5 ">
-                                                <div class="card border-0 zoom-card-city" style="width: 10rem;">
-                                                    <div class="card-body text-center border-0">
-                                                        <div class=" d-flex align-items-center justify-content-center">
-                                                            <i class="fas fa-city fa-lg"
-                                                                style="font-size: 5rem !important;"></i>
-                                                        </div>
-                                                        <p class="main-p mt-4 mb-0">Coimbatore</p>
-                                                    </div>
-                                                </div>
+                                            <div class="col-sm-4  text-center">
+                                                <a href="" style="text-decoration: none;">
+                                                    <img src="./assets/img/bg/vidhana_soudha.svg" width="50%">
+                                                    <p class="main-p mt-2">city 1</p>
+                                                </a>
+
                                             </div>
-                                            <div class="col-sm-4 py-5">
-                                                <div class="card border-0 zoom-card-city" style="width: 10rem;">
-                                                    <div class="card-body text-center border-0">
-                                                        <div class=" d-flex align-items-center justify-content-center">
-                                                            <i class="fas fa-city fa-lg"
-                                                                style="font-size: 5rem !important;"></i>
-                                                        </div>
-                                                        <p class="main-p mt-4 mb-0">Delhi</p>
-                                                    </div>
-                                                </div>
+                                            <div class="col-sm-4  text-center">
+                                                <a href="" style="text-decoration: none;">
+                                                    <img src="./assets/img/bg/vidhana_soudha.svg" width="50%">
+                                                    <p class="main-p mt-2">city 1</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row mx-5">
+                                            <div class="col-sm-4 text-center">
+                                                <a href="" style="text-decoration: none;">
+                                                    <img src="./assets/img/bg/vidhana_soudha.svg" width="50%">
+                                                    <p class="main-p mt-2">city 1</p>
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-4  text-center">
+                                                <a href="" style="text-decoration: none;">
+                                                    <img src="./assets/img/bg/vidhana_soudha.svg" width="50%">
+                                                    <p class="main-p mt-2">city 1</p>
+                                                </a>
+
+                                            </div>
+                                            <div class="col-sm-4  text-center">
+                                                <a href="" style="text-decoration: none;">
+                                                    <img src="./assets/img/bg/vidhana_soudha.svg" width="50%">
+                                                    <p class="main-p mt-2">city 1</p>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <button class="carousel-control-prev text-primary" type="button"
+                                    data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                                    <span><i class="fas fa-chevron-left" style="color: #edc539;"></i></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next text-primary" type="button"
+                                    data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                                    <span style="color: #edc539;">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
+    <section>
+        <div class="container">
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8">
@@ -338,9 +635,14 @@
                 <div class="col-sm-2"></div>
             </div>
 
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h1 class="main-section-head" style="font-size: 65px !important;">Care Like a </h1>
+                    <h1 class="main-section-head" style="font-size: 65px !important;margin-top:5rem;">Care Like a </h1>
                     <h1 class="main-section-head" id="mother-h1">Mother</h1>
                     <p class="main-p mt-5 mb-0">
                         With the dream of creating a second home, we always aspire to make sure that our residents feel
@@ -350,359 +652,36 @@
                         your caregiver.
                     </p>
                 </div>
-                <div class="col-sm-6"></div>
-            </div>
-
-
-            <div class="row mt-5">
                 <div class="col-sm-6">
-                </div>
-                <div class="col-sm-6 text-end">
-                    <h1 class="main-section-head">A Healthy</h1>
-                    <h1 class="main-section-head text-yellow">Stay</h1>
-
-                    <p class="main-p mt-4 mb-0">
-                        In the midst of a pandemic we put extra care in the health of our guests while adhering to the
-                        regulation laid down by the World Health Organisation.We have carried out many efforts to ensure
-                        health and hygiene to provide maximum security for our guests.
-                    </p>
-
-                </div>
-            </div>
-
-            <div class="row mt-5 mb-5">
-                <div class="col-sm-6">
-                    <p class="main-p">
-                        Dont let your workload overpower you. Flush out the tension with our art based amenities and
-                        community-based events designed to relax and rejuvenate
-                        you. We believe that relaxation fuels success in ways that are unimaginable.
-                    </p>
-                    <div class="swiper-container mySwiper pt-0">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-                            </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-                <div class="col-sm-6 text-end">
-                </div>
-            </div>
-
-            <div class="row mt-5">
-                <div class="col-sm-6"></div>
-                <div class="col-sm-6 text-end">
-                    <h1 class="main-section-head">Secure like a</h1>
-                    <h1 class="main-section-head text-yellow">Vault</h1>
-
-                    <p class="main-p mt-4 mb-0">
-                        We prioritise the safety of our guests and make their stay more secure. We even go above and
-                        beyond to ensure that our female guests are safeguarded from
-                        any kind of hindrance, so that they can have a peaceful stay.
-                    </p>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-sm-6">
-                    <h1 class="main-section-head">IoT Enabled</h1>
-                    <h1 class="main-section-head" style="color: #27debf !important;">Property</h1>
-
-                    <p class="main-p mt-4 mb-0">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged.
-                    </p>
-                </div>
-                <div class="col-sm-6"></div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-sm-5"></div>
-                <div class="col-sm-7">
                     <div class="row">
-                        <div class="col-sm-12">
-                            <h1 class="main-section-head">One Tap <span
-                                    style="color:#27debf !important">Solutions</span></h1>
-                            <p class="main-p">
-                                Why wait for your needs to be addressed by a persion? Simply tap on your smartphone and
-                                have all your needs fulfilled.
-                                Your own personal AI Driven Cozy Concierge shall assist you in booking rooms, paying
-                                rent and requesting services at ease through the Cozy stay application.
+                        <div class="col-sm-6 text-center py-5">
+                            <img src="./assets/img/bg/washing-machine.png" style="width: 50%;" />
+                            <p class="main-p mb-0">
+                                Laundry
                             </p>
                         </div>
-                        <div class="col-sm-2"></div>
-                        <div class="col-sm-10">
-                            <div class="search">
-                                <i class="fa fa-search fa-md search-icon"></i>
-                                <input type="text" class="form-control ps-4 pb-2" placeholder="Find your near home...">
-                                <button class="btn btn-primary">Search</button>
-                            </div>
+                        <div class="col-sm-6 text-center py-5">
+                            <img src="./assets/img/bg/kitchen.png" style="width: 50%;" />
+                            <p class="main-p mb-0">
+                                Common Cooking <br>Area
+                            </p>
                         </div>
-                        <div class="col-sm-12 text-end">
-                            <span class="near-me"><i class="fas fa-location"></i> Near me</span>
+                        <div class="col-sm-6  text-center pb-5">
+                            <img src="./assets/img/bg/toaster.png" style="width: 50%;" />
+                            <p class="main-p mb-0">
+                                Induction Stove & <br>Bread Toaster
+                            </p>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-5 mb-5">
-                <div class="col-sm-5">
-                    <h1 class="main-section-head">Refer and</h1>
-                    <h1 class="main-section-head text-yellow">Earn</h1>
-                    <p class="main-p">
-                        Why wait for your needs to be addressed by a persion? Simply tap on your smartphone and have all
-                        your needs fulfilled.
-                        Your own personal AI Driven Cozy Concierge shall assist you in booking rooms, paying rent and
-                        requesting services at ease through the Cozy stay application.
-                    </p>
-                </div>
-                <div class="col-sm-7"></div>
-                <div class="col-sm-5">
-                    <a href="#" class="btn btn-primary px-3" style="padding: 5px 28px 5px 28px !important;
-                    border-radius: 14px !important;">Know More</a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="swiper-container image-slider" style="height: 47rem !important;">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="-webkit-box-pack: center;
-                            -ms-flex-pack: center;
-                            -webkit-justify-content: center;
-                            justify-content: center;
-                            -webkit-box-align: center;
-                            -ms-flex-align: center;
-                            -webkit-align-items: center;
-                            align-items: center;">
-                                <div class="card p-2 shadow-lg p-3 mb-5 bg-body rounded"
-                                    style="width: 25rem; border-radius: 2rem !important;border-color: transparent !important;">
-                                    <img src="https://www.clickcrawl.net/wp-content/uploads/2016/01/mobile-app-banner.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-sm-12 text-center">
-                                                <h3 style="font-weight:900;color:#eebf1e !important;">Ajith Appukkuttan
-                                                </h3>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                                    aliquip ex ea commodo consequat.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide" style="-webkit-box-pack: center;
-                            -ms-flex-pack: center;
-                            -webkit-justify-content: center;
-                            justify-content: center;
-                            -webkit-box-align: center;
-                            -ms-flex-align: center;
-                            -webkit-align-items: center;
-                            align-items: center;">
-                                <div class="card p-2 shadow-lg p-3 mb-5 bg-body rounded"
-                                    style="width: 25rem; border-radius: 2rem !important;border-color: transparent !important;">
-                                    <img src="https://www.clickcrawl.net/wp-content/uploads/2016/01/mobile-app-banner.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-sm-12 text-center">
-                                                <h3 style="font-weight:900;color:#eebf1e !important;">Ajith Appukkuttan
-                                                </h3>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                                    aliquip ex ea commodo consequat.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide" style="-webkit-box-pack: center;
-                            -ms-flex-pack: center;
-                            -webkit-justify-content: center;
-                            justify-content: center;
-                            -webkit-box-align: center;
-                            -ms-flex-align: center;
-                            -webkit-align-items: center;
-                            align-items: center;">
-                                <div class="card p-2 shadow-lg p-3 mb-5 bg-body rounded"
-                                    style="width: 25rem; border-radius: 2rem !important;border-color: transparent !important;">
-                                    <img src="https://www.clickcrawl.net/wp-content/uploads/2016/01/mobile-app-banner.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-sm-12 text-center">
-                                                <h3 style="font-weight:900;color:#eebf1e !important;">Ajith Appukkuttan
-                                                </h3>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                                    aliquip ex ea commodo consequat.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide" style="-webkit-box-pack: center;
-                            -ms-flex-pack: center;
-                            -webkit-justify-content: center;
-                            justify-content: center;
-                            -webkit-box-align: center;
-                            -ms-flex-align: center;
-                            -webkit-align-items: center;
-                            align-items: center;">
-                                <div class="card p-2 shadow-lg p-3 mb-5 bg-body rounded"
-                                    style="width: 25rem; border-radius: 2rem !important;border-color: transparent !important;">
-                                    <img src="https://www.clickcrawl.net/wp-content/uploads/2016/01/mobile-app-banner.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-sm-12 text-center">
-                                                <h3 style="font-weight:900;color:#eebf1e !important;">Ajith Appukkuttan
-                                                </h3>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                                    aliquip ex ea commodo consequat.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide" style="-webkit-box-pack: center;
-                            -ms-flex-pack: center;
-                            -webkit-justify-content: center;
-                            justify-content: center;
-                            -webkit-box-align: center;
-                            -ms-flex-align: center;
-                            -webkit-align-items: center;
-                            align-items: center;">
-                                <div class="card p-2 shadow-lg p-3 mb-5 bg-body rounded"
-                                    style="width: 25rem; border-radius: 2rem !important;border-color: transparent !important;">
-                                    <img src="https://www.clickcrawl.net/wp-content/uploads/2016/01/mobile-app-banner.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-sm-12 text-center">
-                                                <h3 style="font-weight:900;color:#eebf1e !important;">Ajith Appukkuttan
-                                                </h3>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                                    aliquip ex ea commodo consequat.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-sm-6  text-center  pb-5">
+                            <img src="./assets/img/bg/house-keeping.png" style="width: 50%;" />
+                            <p class="main-p mb-0">
+                                24*7<br>Housekeeping
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-            <!-- blogtest -->
-
-
-            <div class="row mb-5">
-                <div style="overflow: hidden;position: relative;" class="col-md-5">
-                    <h1 class="main-section-head">The Cozy</h1>
-                    <h1 class="main-section-head" style="color: #27debf !important;">Blog</h1>
-                    <p class="main-p mt-4">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged.
-                    </p>
-                </div>
-                <div style="overflow: hidden;position: relative;" class="col-md-7  blog-slider">
-
-                    <div class="swiper-wrapper">
-
-                       
-                        <div class="swiper-slide">
-
-                            <img src="https://greatloveart.com/wp-content/uploads/2021/03/Android-phone-background-Actor-hero-Rajinikanth.jpg"
-                                alt="">
-                        </div>
-                        <div  class="swiper-slide">
-
-                            <img src="https://greatloveart.com/wp-content/uploads/2021/03/Android-phone-background-Actor-hero-Rajinikanth.jpg"
-                                alt="">
-                        </div>
-                        <div  class="swiper-slide">
-
-                            <img src="https://greatloveart.com/wp-content/uploads/2021/03/Android-phone-background-Actor-hero-Rajinikanth.jpg"
-                                alt="">
-                        </div>
-                        <div  class="swiper-slide">
-
-                            <img src="https://greatloveart.com/wp-content/uploads/2021/03/Android-phone-background-Actor-hero-Rajinikanth.jpg"
-                                alt="">
-                        </div>
-                        <div  class="swiper-slide">
-
-                            <img src="https://greatloveart.com/wp-content/uploads/2021/03/Android-phone-background-Actor-hero-Rajinikanth.jpg"
-                                alt="">
-                        </div>
-                        <div class="swiper-slide">
-
-                            <img src="https://greatloveart.com/wp-content/uploads/2021/03/Android-phone-background-Actor-hero-Rajinikanth.jpg"
-                                alt="">
-                        </div>
-                     
-                    </div>
-                    <div class="swiper-pagination"></div>
-
-                </div>
-            </div>
-
-            <!-- blogtest -->
-
-
-
-
         </div>
-
     </section>
 
     <!-- scripts -->
@@ -721,6 +700,13 @@
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        $(function () {
+            console.log('width - ', $(window).width())
+        });
+    </script>
+
 
     <!-- Initialize Swiper -->
 
